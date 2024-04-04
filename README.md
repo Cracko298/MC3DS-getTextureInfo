@@ -1,6 +1,7 @@
 # getTextureInfo
 - A cross-platform and language compiled Binary.
 - Gets information from Minecraft 3DST File Format.
+- Feel Free to use this for Any project you want, just make sure to abide by the license.
 
 ## Callable Functions:
 ```cpp
