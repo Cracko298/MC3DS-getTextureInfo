@@ -10,6 +10,15 @@ getMIPValue(yourEvenBetterPathString);
 getFileVersion(yourLesserCoolPathString);
 ```
 
+## Building:
+### Linux:
+```ps
+ g++ -shared -fPIC -luser32 -o getTextureInfo.so -Os -O3 -flto -s LinuxFormatFind.cpp
+```
+Windows:
+```ps
+g++ -shared -o getTextureInfo.dll -Os -O3 -flto -s FormatFind.cpp
+```
 ## Example for Calling Functions:
 ### Python:
 ```py
